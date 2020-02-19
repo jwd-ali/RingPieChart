@@ -74,7 +74,7 @@ public class Circular: UIView {
     //MARK:- Animations Functions
     private  func oppacityAnimation(index:Double,shape:CAShapeLayer) {
         shape.opacity = 0
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5 + Double(index)/2.5 ) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5.5 + Double(index)/2.5 ) {
             shape.opacity = 1
             let animation = CABasicAnimation(keyPath: "opacity")
             animation.fromValue = 0
