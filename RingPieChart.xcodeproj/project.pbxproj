@@ -18,6 +18,8 @@
 		E36BB07023FD63D700859DAD /* RingPieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB06F23FD63D700859DAD /* RingPieChartTests.swift */; };
 		E36BB07223FD63D700859DAD /* RingPieChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; };
 		E36BB07823FD63E300859DAD /* RingPieChartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB06723FD636C00859DAD /* RingPieChartTest.swift */; };
+		E36BB07B23FD6B4700859DAD /* RingPieChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; };
+		E36BB07C23FD6B4700859DAD /* RingPieChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,20 @@
 			remoteInfo = RingPieChart;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E36BB07D23FD6B4700859DAD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E36BB07C23FD6B4700859DAD /* RingPieChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E36BB04023FD379C00859DAD /* RingPieChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RingPieChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36BB07B23FD6B4700859DAD /* RingPieChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +99,7 @@
 				E36BB05223FD37E500859DAD /* DemoApp */,
 				E36BB06E23FD63D700859DAD /* RingPieChartTests */,
 				E36BB04123FD379C00859DAD /* Products */,
+				E36BB07923FD6B3200859DAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +147,13 @@
 			path = RingPieChartTests;
 			sourceTree = "<group>";
 		};
+		E36BB07923FD6B3200859DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -168,6 +193,7 @@
 				E36BB04D23FD37E500859DAD /* Sources */,
 				E36BB04E23FD37E500859DAD /* Frameworks */,
 				E36BB04F23FD37E500859DAD /* Resources */,
+				E36BB07D23FD6B4700859DAD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
