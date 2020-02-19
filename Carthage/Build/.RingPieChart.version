@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.0.1",
+  "iOS" : [
+    {
+      "name" : "RingPieChart",
+      "hash" : "71dab83ef7da897faa3a075ba7ff43bbfd4e04e9636d129b840a18ecb3052305",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

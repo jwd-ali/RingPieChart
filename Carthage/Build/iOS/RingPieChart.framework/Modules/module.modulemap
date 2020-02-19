@@ -1,0 +1,11 @@
+framework module RingPieChart {
+  umbrella header "RingPieChart.h"
+
+  export *
+  module * { export * }
+}
+
+module RingPieChart.Swift {
+    header "RingPieChart-Swift.h"
+    requires objc
+}
