@@ -23,7 +23,6 @@ class ViewController: UIViewController {
    //     cir.lineWidth = 12 you can set the chart width with this lineWidth property
         self.view .addSubview(cir)
         
-        print("666")
      
         
         super.viewDidLoad()
