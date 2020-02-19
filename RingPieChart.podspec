@@ -3,14 +3,12 @@ Pod::Spec.new do |spec|
   spec.name         = "RingPieChart"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of RingPieChart."
-  spec.description  = <<-DESC
-                   DESC
-
+  spec.description  = "hjsg gdjq gdjq dghje gdjhq egdhjqe dghjq edhj dghjq egdhjq gdh"
   spec.homepage     = "http://EXAMPLE/RingPieChart"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -26,9 +24,9 @@ Pod::Spec.new do |spec|
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
  
-  spec.source       = { :git => "http://EXAMPLE/RingPieChart.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/jwd-ali/RingPieChart.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "DemoApp/**/*.{h,m,swift}"
+  spec.source_files  = "RingPieChart", "RingPieChart/**/*.{h,m,swift}"
   
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
