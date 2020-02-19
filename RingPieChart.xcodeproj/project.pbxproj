@@ -15,7 +15,20 @@
 		E36BB05B23FD37E500859DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36BB05923FD37E500859DAD /* Main.storyboard */; };
 		E36BB05D23FD37E600859DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36BB05C23FD37E600859DAD /* Assets.xcassets */; };
 		E36BB06023FD37E600859DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36BB05E23FD37E600859DAD /* LaunchScreen.storyboard */; };
+		E36BB07023FD63D700859DAD /* RingPieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB06F23FD63D700859DAD /* RingPieChartTests.swift */; };
+		E36BB07223FD63D700859DAD /* RingPieChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; };
+		E36BB07823FD63E300859DAD /* RingPieChartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB06723FD636C00859DAD /* RingPieChartTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E36BB07323FD63D700859DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36BB03723FD379C00859DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36BB03F23FD379C00859DAD;
+			remoteInfo = RingPieChart;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E36BB04023FD379C00859DAD /* RingPieChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RingPieChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +43,10 @@
 		E36BB05C23FD37E600859DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E36BB05F23FD37E600859DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E36BB06123FD37E600859DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36BB06723FD636C00859DAD /* RingPieChartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingPieChartTest.swift; sourceTree = "<group>"; };
+		E36BB06D23FD63D700859DAD /* RingPieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingPieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36BB06F23FD63D700859DAD /* RingPieChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingPieChartTests.swift; sourceTree = "<group>"; };
+		E36BB07123FD63D700859DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E36BB06A23FD63D700859DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36BB07223FD63D700859DAD /* RingPieChart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +80,7 @@
 			children = (
 				E36BB04223FD379C00859DAD /* RingPieChart */,
 				E36BB05223FD37E500859DAD /* DemoApp */,
+				E36BB06E23FD63D700859DAD /* RingPieChartTests */,
 				E36BB04123FD379C00859DAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +90,7 @@
 			children = (
 				E36BB04023FD379C00859DAD /* RingPieChart.framework */,
 				E36BB05123FD37E500859DAD /* DemoApp.app */,
+				E36BB06D23FD63D700859DAD /* RingPieChartTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +100,7 @@
 			children = (
 				E36BB04323FD379C00859DAD /* RingPieChart.h */,
 				E36BB04B23FD37AB00859DAD /* Circular.swift */,
+				E36BB06723FD636C00859DAD /* RingPieChartTest.swift */,
 				E36BB04423FD379C00859DAD /* Info.plist */,
 			);
 			path = RingPieChart;
@@ -90,6 +118,15 @@
 				E36BB06123FD37E600859DAD /* Info.plist */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		E36BB06E23FD63D700859DAD /* RingPieChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E36BB06F23FD63D700859DAD /* RingPieChartTests.swift */,
+				E36BB07123FD63D700859DAD /* Info.plist */,
+			);
+			path = RingPieChartTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +178,24 @@
 			productReference = E36BB05123FD37E500859DAD /* DemoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E36BB06C23FD63D700859DAD /* RingPieChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36BB07523FD63D700859DAD /* Build configuration list for PBXNativeTarget "RingPieChartTests" */;
+			buildPhases = (
+				E36BB06923FD63D700859DAD /* Sources */,
+				E36BB06A23FD63D700859DAD /* Frameworks */,
+				E36BB06B23FD63D700859DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E36BB07423FD63D700859DAD /* PBXTargetDependency */,
+			);
+			name = RingPieChartTests;
+			productName = RingPieChartTests;
+			productReference = E36BB06D23FD63D700859DAD /* RingPieChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +211,9 @@
 						LastSwiftMigration = 1130;
 					};
 					E36BB05023FD37E500859DAD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E36BB06C23FD63D700859DAD = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -175,6 +233,7 @@
 			targets = (
 				E36BB03F23FD379C00859DAD /* RingPieChart */,
 				E36BB05023FD37E500859DAD /* DemoApp */,
+				E36BB06C23FD63D700859DAD /* RingPieChartTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +253,13 @@
 				E36BB06023FD37E600859DAD /* LaunchScreen.storyboard in Resources */,
 				E36BB05D23FD37E600859DAD /* Assets.xcassets in Resources */,
 				E36BB05B23FD37E500859DAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E36BB06B23FD63D700859DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +284,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E36BB06923FD63D700859DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36BB07023FD63D700859DAD /* RingPieChartTests.swift in Sources */,
+				E36BB07823FD63E300859DAD /* RingPieChartTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E36BB07423FD63D700859DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36BB03F23FD379C00859DAD /* RingPieChart */;
+			targetProxy = E36BB07323FD63D700859DAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E36BB05923FD37E500859DAD /* Main.storyboard */ = {
@@ -443,6 +526,40 @@
 			};
 			name = Release;
 		};
+		E36BB07623FD63D700859DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RingPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.RingPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E36BB07723FD63D700859DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RingPieChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XeroT.RingPieChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,6 +586,15 @@
 			buildConfigurations = (
 				E36BB06323FD37E600859DAD /* Debug */,
 				E36BB06423FD37E600859DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36BB07523FD63D700859DAD /* Build configuration list for PBXNativeTarget "RingPieChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36BB07623FD63D700859DAD /* Debug */,
+				E36BB07723FD63D700859DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
