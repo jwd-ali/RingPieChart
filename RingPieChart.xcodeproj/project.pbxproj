@@ -30,6 +30,13 @@
 			remoteGlobalIDString = E36BB03F23FD379C00859DAD;
 			remoteInfo = RingPieChart;
 		};
+		E36BB07E23FD6E8500859DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36BB03723FD379C00859DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E36BB05023FD37E500859DAD;
+			remoteInfo = DemoApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -216,6 +223,7 @@
 			);
 			dependencies = (
 				E36BB07423FD63D700859DAD /* PBXTargetDependency */,
+				E36BB07F23FD6E8500859DAD /* PBXTargetDependency */,
 			);
 			name = RingPieChartTests;
 			productName = RingPieChartTests;
@@ -241,6 +249,7 @@
 					};
 					E36BB06C23FD63D700859DAD = {
 						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E36BB05023FD37E500859DAD;
 					};
 				};
 			};
@@ -326,6 +335,11 @@
 			isa = PBXTargetDependency;
 			target = E36BB03F23FD379C00859DAD /* RingPieChart */;
 			targetProxy = E36BB07323FD63D700859DAD /* PBXContainerItemProxy */;
+		};
+		E36BB07F23FD6E8500859DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E36BB05023FD37E500859DAD /* DemoApp */;
+			targetProxy = E36BB07E23FD6E8500859DAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -565,6 +579,7 @@
 		E36BB07623FD63D700859DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5DBAJ72E6;
@@ -579,12 +594,14 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
 			};
 			name = Debug;
 		};
 		E36BB07723FD63D700859DAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5DBAJ72E6;
@@ -599,6 +616,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoApp.app/DemoApp";
 			};
 			name = Release;
 		};
