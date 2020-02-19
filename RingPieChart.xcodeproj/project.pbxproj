@@ -489,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = XeroT.RingPieChart;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -517,6 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = XeroT.RingPieChart;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
@@ -565,7 +567,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
 				INFOPLIST_FILE = RingPieChartTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -585,7 +587,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7VBQS7JDYT;
+				DEVELOPMENT_TEAM = M5DBAJ72E6;
 				INFOPLIST_FILE = RingPieChartTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
