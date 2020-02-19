@@ -1,4 +1,5 @@
 <img src="https://github.com/jwd-ali/TidalTestProject/blob/master/images/header/header.png">
+<img align="right" src="https://github.com/jwd-ali/RingPieChart/blob/master/images/demo.png" width="480" />
 <p><h1 align="left">RingPieChart</h1></p>
 <p><h4>Add Beautiful Ring Piechart in your Project</h4></p>
 
