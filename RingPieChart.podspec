@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "RingPieChart/**/*.{h,m,swift}"
   s.requires_arc = true
-  spec.swift_version = "5.0"
+  s.swift_version = "5.0"
  
   
 end
