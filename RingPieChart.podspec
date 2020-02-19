@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "RingPieChart framework"
   s.description  = <<-DESC
-                  RingPieChart framework pod jhgjhgjh jhghjgh
+                  RingPieChart framework pod can create beautiful Ring Chart showing different colors and percentages of any data. its easy to use and efficient
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-video-sdk"
+  s.homepage     = "https://github.com/jwd-ali/IOS-Portfolio"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Jawad Ali" => "L060214@gmail.com" }
