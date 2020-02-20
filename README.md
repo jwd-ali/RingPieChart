@@ -115,7 +115,7 @@ chart.lineWidth = 12
 Congratulations! You're done.
 
 <h3 align="center">
-    <img src="https://github.com/jwd-ali/RingPieChart/blob/master/images/ezgif.com-video-to-gif.gifg"  alt="Beautiful Ring PieChart" />
+    <img src="https://github.com/jwd-ali/RingPieChart/blob/master/images/ezgif.com-video-to-gif.gif"  alt="Beautiful Ring PieChart" />
 </h3>
 
 
