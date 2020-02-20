@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E36BB04523FD379C00859DAD /* RingPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = E36BB04323FD379C00859DAD /* RingPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E36BB04C23FD37AB00859DAD /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB04B23FD37AB00859DAD /* Circular.swift */; };
 		E36BB05423FD37E500859DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB05323FD37E500859DAD /* AppDelegate.swift */; };
 		E36BB05623FD37E500859DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB05523FD37E500859DAD /* SceneDelegate.swift */; };
 		E36BB05823FD37E500859DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB05723FD37E500859DAD /* ViewController.swift */; };
@@ -20,6 +19,7 @@
 		E36BB07823FD63E300859DAD /* RingPieChartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB06723FD636C00859DAD /* RingPieChartTest.swift */; };
 		E36BB07B23FD6B4700859DAD /* RingPieChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; };
 		E36BB07C23FD6B4700859DAD /* RingPieChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E36BB04023FD379C00859DAD /* RingPieChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E36BB0A123FE89F700859DAD /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36BB0A023FE89F700859DAD /* Circular.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,6 @@
 		E36BB04023FD379C00859DAD /* RingPieChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RingPieChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36BB04323FD379C00859DAD /* RingPieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingPieChart.h; sourceTree = "<group>"; };
 		E36BB04423FD379C00859DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E36BB04B23FD37AB00859DAD /* Circular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
 		E36BB05123FD37E500859DAD /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36BB05323FD37E500859DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E36BB05523FD37E500859DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		E36BB06D23FD63D700859DAD /* RingPieChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingPieChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36BB06F23FD63D700859DAD /* RingPieChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingPieChartTests.swift; sourceTree = "<group>"; };
 		E36BB07123FD63D700859DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36BB0A023FE89F700859DAD /* Circular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circular.swift; path = Sources/RingPieChart/Circular.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				E36BB04323FD379C00859DAD /* RingPieChart.h */,
-				E36BB04B23FD37AB00859DAD /* Circular.swift */,
+				E36BB0A023FE89F700859DAD /* Circular.swift */,
 				E36BB06723FD636C00859DAD /* RingPieChartTest.swift */,
 				E36BB04423FD379C00859DAD /* Info.plist */,
 			);
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36BB04C23FD37AB00859DAD /* Circular.swift in Sources */,
+				E36BB0A123FE89F700859DAD /* Circular.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
