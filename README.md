@@ -98,6 +98,8 @@ If you prefer not to use a dependency manager, you can integrate Ji into your pr
 - Init your ring with  `percentages` and `colors`:
 ```swift
  let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red],animated: false)
+ // OR 
+ let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red])
 ```
 Animation is True by default 
 you can set frame or add constraints to chart 
