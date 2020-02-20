@@ -1,5 +1,5 @@
 language: objective-c  #1
 osx_image: xcode11 #2
 xcode_project: RingPieChart.xcodeproj #3
-xcode_scheme: RingPieChartTest #4
+xcode_scheme: RingPieChartTests #4
 #xcode_sdk: iphonesimulator13.2 #5
