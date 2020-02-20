@@ -7,7 +7,7 @@ script:
 
   xctool
   -workspace RingPieChart/RingPieChart.xcworkspace
-  -scheme RingPieChart
+  -scheme RingPieChartTest
   -sdk iphonesimulator
   -destination 'platform=iOS Simulator,name=iPhone 8'
   build
