@@ -7,7 +7,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Ji.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
 [![Platform](https://img.shields.io/cocoapods/p/Ji.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
-
+[![Swift 5.1](https://img.shields.io/badge/swift-5.1-orange)](https://swift.org)
 
 <p><h4>Add Beautiful Ring Piechart in your Project</h4></p>
 
