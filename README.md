@@ -3,7 +3,7 @@
 <p><h1 align="left">RingPieChart</h1></p>
 
 [![CI Status](https://travis-ci.org/jwd-ali/RingPieChart.svg)](https://travis-ci.org/jwd-ali/RingPieChart)
-[![CocoaPods Version](https://img.shields.io/badge/pod-v1.0.0-yellowgreen)](https://cocoapods.org/pods/RingPieChart)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/RingPieChart.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Ji.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
 [![Platform](https://img.shields.io/cocoapods/p/Ji.svg?style=flat)](https://cocoapods.org/pods/RingPieChart)
