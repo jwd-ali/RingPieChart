@@ -97,5 +97,16 @@ If you prefer not to use a dependency manager, you can integrate Ji into your pr
 
 - Init your ring with  `percentages` and `colors`:
 ```swift
- let cir = Circular(percentages: [42,27,18,13], colors: [#colorLiteral(red: 0.2768642902, green: 0.552749753, blue: 0.9582422376, alpha: 1),#colorLiteral(red: 0.6800097227, green: 0.2969456911, blue: 0.8304955363, alpha: 1),#colorLiteral(red: 0.9592140317, green: 0.4973406196, blue: 0.08628573269, alpha: 1),#colorLiteral(red: 0.9573473334, green: 0.2803060114, blue: 0.4532059431, alpha: 1)],animated: false)
+ let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red],animated: false)
+```
+Animation is True by default 
+you can set frame or add constraints to chart 
+
+```swift
+ chart.frame = CGRect(x: 50, y: 50, width: 250, height: 250)
+ self.view .addSubview(chart)
+```
+You can add chart line width by setting lineWidth property like this 
+```swift
+chart.lineWidth = 12 
 ```
