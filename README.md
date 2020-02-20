@@ -19,3 +19,80 @@ ___
 <a href="https://www.linkedin.com/in/jawad-ali-3804ab24/"><img src="https://i.imgur.com/vGjsQPt.png" width="134" height="34"></a>  
 
 </br></br>
+
+
+## Requirements
+
+- iOS 10.0+ / Mac OS X 10.9+ / watchOS 2.0+ / tvOS 9.0+
+- Xcode 8.0+
+
+## Installation
+
+### [CocoaPods](http://cocoapods.org)
+
+To integrate **RingPieChart** into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+use_frameworks!
+
+pod 'RingPieChart'
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+### [Carthage](http://github.com/Carthage/Carthage)
+
+To integrate `RingPieChart` into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "jwd-ali/RingPieChart"
+```
+
+### [Swift Package Manager (SPM)](https://swift.org/package-manager)
+
+#### Prerequisites
+- OSX
+
+```bash
+brew install libxml2
+brew link --force libxml2
+```
+
+- Linux
+```bash
+$ sudo apt-get install libxml2-dev
+```
+
+#### Update `Package.swift`
+To integrate `RingPieChart` in your project, add the proper description to your `Package.swift` file:
+```swift
+// swift-tools-version:5.0
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    dependencies: [
+        .package(url: "https://github.com/jwd-ali/RingPieChart.git", from: "1.0.0")
+    ],
+    targets: [
+        .target(
+            name: "YOUR_TARGET_NAME",
+            dependencies: ["RingPieChart"]
+        ),
+        ...
+    ]
+)
+```
+
+### Manually
+
+If you prefer not to use a dependency manager, you can integrate Ji into your project manually.
+
+- Add sources into your project:
+  - Drag `Circular.swift`
+
+
