@@ -57,15 +57,6 @@ github "jwd-ali/RingPieChart"
 #### Prerequisites
 - OSX
 
-```bash
-brew install libxml2
-brew link --force libxml2
-```
-
-- Linux
-```bash
-$ sudo apt-get install libxml2-dev
-```
 
 #### Update `Package.swift`
 To integrate `RingPieChart` in your project, add the proper description to your `Package.swift` file:
