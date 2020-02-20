@@ -90,7 +90,7 @@ If you prefer not to use a dependency manager, you can integrate Ji into your pr
 
 > If you are using any dependency manager (pods , carthage , package manager)to integrate RingPieChart. Import RingPieChart first:
 > ```swift
-> import Ji
+> import RingPieChart
 > ```
 
 > And for Manuall install you dont need to import anything 
