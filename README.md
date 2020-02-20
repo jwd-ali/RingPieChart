@@ -81,7 +81,7 @@ let package = Package(
 
 ### Manually
 
-If you prefer not to use a dependency manager, you can integrate Ji into your project manually.
+If you prefer not to use a dependency manager, you can integrate RingPieChart into your project manually.
 
 - Add sources into your project:
   - Drag `Circular.swift`
@@ -113,6 +113,11 @@ You can add chart line width by setting lineWidth property like this
 chart.lineWidth = 12 
 ```
 Congratulations! You're done.
+
+<h3 align="center">
+    <img src="https://github.com/jwd-ali/RingPieChart/blob/master/images/ezgif.com-video-to-gif.gifg"  alt="Beautiful Ring PieChart" />
+</h3>
+
 
 License
 -------
