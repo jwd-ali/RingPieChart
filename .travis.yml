@@ -3,19 +3,3 @@ language: objective-c  #1
 xcode_project: RingPieChart.xcodeproj #3
 xcode_scheme: RingPieChart #4
 #xcode_sdk: iphonesimulator13.2 #5
-script:
-
-  xctool
-  -workspace RingPieChart/RingPieChart.xcworkspace
-  -scheme RingPieChartTest
-  -sdk iphonesimulator
-  -destination 'platform=iOS Simulator,name=iPhone 8'
-  build
-  test
-  ONLY_ACTIVE_ARCH=NO
-  CODE_SIGN_IDENTITY=""
-  CODE_SIGNING_REQUIRED=NO
-
-before_install:
-  - brew update
-  - brew uninstall xctool && brew install --HEAD xctool
