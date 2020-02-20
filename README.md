@@ -112,3 +112,9 @@ You can add chart line width by setting lineWidth property like this
 ```swift
 chart.lineWidth = 12 
 ```
+Congratulations! You're done.
+
+License
+-------
+
+RingPieChart is under [MIT](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) file for more info.
