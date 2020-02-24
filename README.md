@@ -97,7 +97,7 @@ If you prefer not to use a dependency manager, you can integrate RingPieChart in
 
 - Init your ring with  `percentages` and `colors`:
 ```swift
- let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red],animated: false)
+ let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red],aimationType: .animationFadeIn,showPercentageStyle: .inward)
  // OR 
  let chart = Circular(percentages: [42,27,18,13], colors: [.blue,.purple,.orange,.red])
 ```
@@ -111,6 +111,33 @@ you can set frame or add constraints to chart
 You can add chart line width by setting lineWidth property like this 
 ```swift
 chart.lineWidth = 12 
+```
+Ring chart Has 5 values for its Animation Enum 
+```swift 
+public enum AnimationStyle: Int {
+    case animationFanAll
+    case animationFan
+    case animationFadeIn
+    case animationthreeD
+    case none
+}
+```
+and 4 different styles of showing percentages. You can choose accoding to your UI needs
+
+```swift
+public enum PercentageStyle : Int {
+    case none
+    case inward
+    case outward
+    case over
+    
+}
+```
+
+You can pass them in an initialiser or set there value after intialisation 
+```swift
+chart.animationType =  .animationFan
+chart.showPercentageStyle = .outward
 ```
 Congratulations! You're done.
 
