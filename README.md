@@ -67,7 +67,7 @@ import PackageDescription
 let package = Package(
     name: "YOUR_PROJECT_NAME",
     dependencies: [
-        .package(url: "https://github.com/jwd-ali/RingPieChart.git", from: "1.0.0")
+        .package(url: "https://github.com/jwd-ali/RingPieChart.git", from: "2.0.0")
     ],
     targets: [
         .target(
