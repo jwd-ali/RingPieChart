@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         cir = Circular(percentages: [42,27,18,13], colors: [#colorLiteral(red: 0.2768642902, green: 0.552749753, blue: 0.9582422376, alpha: 1),#colorLiteral(red: 0.6800097227, green: 0.2969456911, blue: 0.8304955363, alpha: 1),#colorLiteral(red: 0.9592140317, green: 0.4973406196, blue: 0.08628573269, alpha: 1),#colorLiteral(red: 0.9573473334, green: 0.2803060114, blue: 0.4532059431, alpha: 1)])
         cir.animationType = AnimationStyle.init(rawValue: animationSegment.selectedSegmentIndex) ?? .animationFan
         cir.showPercentageStyle = PercentageStyle.init(rawValue: percentageSegment.selectedSegmentIndex) ?? .none
-        cir.frame = CGRect(x: 50, y: 50, width: 250, height: 250)
+        cir.frame = CGRect(x: 50, y: 50, width: 300, height: 300)
         cir.lineWidth = 10
         cir.center = self.view.center
         

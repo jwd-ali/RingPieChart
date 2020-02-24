@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RingPieChart"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "RingPieChart framework"
   s.description  = <<-DESC
                   RingPieChart framework pod can create beautiful Ring Chart showing different colors and percentages of any data. its easy to use and efficient
