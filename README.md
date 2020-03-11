@@ -146,6 +146,11 @@ Congratulations! You're done.
 </h3>
 
 
+## Contributing
+
+I’d love to have help on this project. For small changes please [open a pull request](https://github.com/douglashill/KeyboardKit/pulls), for larger changes please [open an issue](https://github.com/douglashill/KeyboardKit/issues) first to discuss what you’d like to see.
+
+
 License
 -------
 
